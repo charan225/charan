@@ -1,0 +1,177 @@
+body {
+background-color:#cccccc;
+}
+.wrap{
+    text-align:center;
+}
+.about{
+    background-color:#8c99a6 ;
+}
+aside{
+    padding-bottom: 1px;
+}
+aside{
+    z-index: 100;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    background-color: black;
+}
+
+aside li {
+    float: left;
+}
+
+aside li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+aside{
+    width:100%;
+    position:fixed;
+    top:0;
+}
+a:link {
+    color: white;
+    
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.column{
+    padding-top: 30px;
+}
+.column p {
+
+    color:rgb(128,128,128);
+    font-family: sans-serif;
+
+}
+footer ul{
+list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+}
+footer .grid_4{
+    width:30%;
+}
+footer .APPS li{
+margin-bottom: 10px;
+}
+footer li{
+    margin: 0 0 20px 0;
+    color : black;
+}
+.footer {
+    height: 330px;
+    background:black;
+}
+footer h1 {
+    color:white;
+}
+ .head h1{
+    font-size: 50px;
+    font-family:'Abel', sans-serif; 
+    text-align: center;
+    margin-top: 50px;
+}
+.para pre
+{
+    font-size: 25px;
+    color:rgb(128,128,128);
+    margin-bottom: 1px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;;
+}
+
+.column3
+{
+margin : 20px 0px;
+background: white;
+}
+.column31
+{
+    margin: 20px 0;
+}
+.title h1{
+        color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 25;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 5px 5px 10px yellowgreen;
+}
+.title {
+    margin-right: 200px;
+
+}
+footer h1 {
+    margin-top: 20px;
+        font-family: inherit;
+    letter-spacing: 2px;
+}
+.download
+{
+margin: 30px 10px;
+
+}
+.content{
+    background-color: white;
+}
+.help{
+    margin-left: 20px;
+}
+.company{
+    margin-left: 20px;
+}
+.grid_4:hover img{
+    transform: scale(1.1,1.1);
+    transition: 0.5s ease-in-out;
+    z-index: 0;
+}
+
+/*.anime{
+width:1000%;
+}
+.anime .slide{
+display : inline-block;
+width : 1150px;
+height:500px;
+}
+
+@-webkit-keyframes carousel {
+0%,23% {margin-left:%;}
+24%,49%{margin-left: -100%;}
+51%,74%{margin-left: -200%;}
+76%,99%{margin-left: -300%;}
+100%{margin-left: 0;}
+
+
+}*/
+.main h1{
+        text-align: center;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+}
